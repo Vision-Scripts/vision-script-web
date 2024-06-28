@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #008181;
+    margin-top: 20px;
+}
+
+p {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #008181;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.first {
+    margin-top: 40px;
+    height: 500px;
+}
+
+.navbar1 {
+    background-color: #008181;
+    color: white;
+}
+
+.navbar1 li {
+    color: white;
+    list-style: none;
+}
+
+.navbar1 a {
+    color: white;
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar1 a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 50%;
+    background: white;
+    transition: width 0.6s ease, right 0.6s ease;
+}
+
+.navbar1 a:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+/* Dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Add arrow next to dropdown items */
+.navbar1 .dropdown-toggle::after {
+    display: none;
+}
+
+/* Change dropdown item color */
+.dropdown-item {
+    color: #008181;
+    
+}
