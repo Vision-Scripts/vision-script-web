@@ -121,7 +121,7 @@ footer a:hover {
 /* Carousel */
 .carousel-item {
     height: 600px;
-    background: rgba(0, 0, 0, 0.863); /* Adjust opacity to darken */
+    background: rgba(0, 0, 0); /* Adjust opacity to darken */
     color: white;
     position: relative;
 }
@@ -221,3 +221,4 @@ footer a:hover {
         transform: translateY(0);
     }
 }
+
